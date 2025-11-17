@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+}
+
+.header, .sign-up , .footer {
+    background-color: #1F2937;
+    color: white;
+    font-family: Roboto, sans-serif;
+    padding: 16px 0;
+}
+
+.container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    font: Roboto, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;  
+}
+
+a, .sign-up {
+    text-decoration: none;
+    background-color: #1F2937;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.sign-up-wrapper, .quote-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.sign-up {
+    padding: 80px;
+}
+
+.sign-up-text {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 30px 0;
+    flex-direction: column;
+    flex: 2;
+    margin-top: 4px;
+}
+
+.image {
+    flex: 2;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 8px; 
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.sign-up-button:hover, .nav-links a:hover {
+    background-color: #2563EB;
+}
+
+.quad-box-wrapper {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    margin: 60px; 
+    font-weight: 900;
+}
+
+.box, .text {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #4B5563;
+}
+
+.image-frame {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 auto 16px auto;
+   
+}
+
+.box img {
+    width: 104%; 
+    height: 104%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0; 
+    display: block;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    max-width: 200px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 52px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.quote-wrapper {
+    max-width: 800px;
+    padding: 60px 20px;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 600;
+    text-align: right;
+    width: 100%;
+}
+
+.call-action {
+    background-color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.call-action-wrapper {
+    max-width: 1000px;
+    width: 1000px;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 20px;
+    justify-content: space-around;
+    
+}
+
+.call-action-title {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.call-action-text {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 24px;
+    max-width: 600px;
+}
+
+.call-action-button {
+    background-color: #3882F6;
+    color: white;
+    border: 4px solid white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.call-action-button:hover {
+    background-color: #1D4ED8;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
